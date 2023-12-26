@@ -1,1 +1,58 @@
 /*  your css code here. If applicable */
+.container{
+	display:flex;
+	justify-content:space-between;
+	padding:30px 70px;
+	background-color:#F6F6F6;
+}
+.left{
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	gap:10px;
+}
+.left svg{
+	margin:0;
+	padding:0;
+	height:50px;
+}
+.left p{
+	font-weight:bold;
+}
+.right{
+	width:270px;
+	background-color:#FFFFFF;
+	border:1px solid lightgray;
+	padding:15px;
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+	align-items:center;
+}
+.right input{
+	padding:10px;
+	width:90%;
+	border:1px solid lightgray;
+	border-radius:8px;
+}
+.right button{
+	padding:5px;
+	color:white;
+	border:none;
+	border-radius:5px;
+}
+.right span{
+	color:lightblue;
+}
+.btn1{
+	background-color:blue;
+	width:98%;
+}
+.btn2{
+	background-color:green;
+	width:150px;
+}
+.border{
+	width:260px;
+	border: 1px solid lightgray;
+}
